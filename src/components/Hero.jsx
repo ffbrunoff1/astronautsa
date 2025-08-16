@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Rocket, Star, Globe, ArrowRight, Telescope } from 'lucide-react'
+import { Rocket, Star, Globe, ArrowRight, Eye } from 'lucide-react'
 
 export default function Hero() {
   const scrollToContact = () => {
@@ -20,7 +20,7 @@ export default function Hero() {
   const floatingElements = [
     { icon: Star, delay: 0, duration: 4, x: '10%', y: '20%' },
     { icon: Globe, delay: 1, duration: 5, x: '80%', y: '30%' },
-    { icon: Telescope, delay: 2, duration: 6, x: '15%', y: '70%' },
+    { icon: Eye, delay: 2, duration: 6, x: '15%', y: '70%' },
     { icon: Rocket, delay: 0.5, duration: 4.5, x: '85%', y: '60%' }
   ]
 
